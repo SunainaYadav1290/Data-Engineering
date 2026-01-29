@@ -10,7 +10,7 @@ Live App: https://nasa-innovation-insights.streamlit.app/
 
  
 
-2.Project : Automated GitHub Log Aggregator & ETL Pipeline  Link:
+2.Project : Automated GitHub Log Aggregator & ETL Pipeline  Link:https://github.com/SunainaYadav1290/Logs_Aggregator_Project
 	 
 •	Engineered an automated ETL pipeline using Apache Airflow to extract real-time event logs from the GitHub API.
 •	Implemented data transformation logic using Pandas to clean raw JSON data, extract key metrics (actor, event type, repo), and generate time-based partitions (Year/Month/Day).
