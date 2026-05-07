@@ -1,6 +1,6 @@
-# Data-Engineering
-Projects
-1.Project : NASA Patent Analytics Dashboard 
+
+# Data Engineering Projects
+## 1. NASA Patent Analytics Dashboard 
 Live App: https://nasa-innovation-insights.streamlit.app/
 
 •	API-Driven Dashboard: Built a live application that fetches real-time data directly from the NASA Technology Transfer API, ensuring the dashboard is always synchronized with the latest patent filings.
@@ -10,9 +10,15 @@ Live App: https://nasa-innovation-insights.streamlit.app/
 
  
 
-2.Project : Automated GitHub Log Aggregator & ETL Pipeline  Link:https://github.com/SunainaYadav1290/Logs_Aggregator_Project
+## 2. GitHub Logs ETL Pipeline using PySpark 
 	 
-•	Engineered an automated ETL pipeline using Apache Airflow to extract real-time event logs from the GitHub API.
-•	Implemented data transformation logic using Pandas to clean raw JSON data, extract key metrics (actor, event type, repo), and generate time-based partitions (Year/Month/Day).
-•	Optimized storage efficiency by converting raw data into Apache Parquet format, leveraging columnar storage for faster analytical queries and reduced disk usage.
-•	Managed a local Linux environment via WSL (Ubuntu) to orchestrate tasks, handle environment variables, and manage python virtual environments.
+
+• Built an ETL pipeline using PySpark to extract real-time issue data from the GitHub API.
+
+• Implemented retry handling, logging, and preprocessing to clean nested JSON data, remove duplicates, and handle null values.
+
+• Applied PySpark transformations to extract time-based features and aggregate logs for analytical reporting.
+
+• Stored processed data in partitioned Apache Parquet format for optimized querying and reduced storage usage.
+
+• Managed a Linux-based development environment using WSL (Ubuntu), virtual environments, and Git for version control.
